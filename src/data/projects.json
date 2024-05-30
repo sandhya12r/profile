@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Foodies App",
+            "slug": "foodie-app",
+            "description": "Full Stack online food delivery app named 'Foodies'",
+            "tech": ["Next.js","Axios", "Springboot", "O-Auth"],
+            "image": "foodie.gif",   
+            "url": "https://github.com/sandhya12r/FoodieApp"
+        },
+        {
+            "id": 2,
+            "title": "Github Users",
+            "slug": "github-users",
+            "description": "User interface that allows users to search for GitHub profiles",
+            "tech": ["HTML", "CSS", "JavaScript","GitHub API"],
+            "image": "github.gif",   
+            "url": "https://sandhya12r.github.io/github-profiles/"
+        },
+        {
+            "id": 3,
+            "title": "My Profile",
+            "slug": "my-profile",
+            "description": "A whole lot about me and the projects I have worked on.",
+            "tech": ["Next.js", "Tailwind CSS", "Aceternity UI"],
+            "image": "port.gif",
+            "url": "https://sandhya12r.github.io/"
+        },
+        {
+            "id": 4,
+            "title": "Restaurant App",
+            "slug": "restaurant-app",
+            "description": "Full Stack App for online food delivery named 'Restaurant'",
+            "tech": ["Springboot", "JSP", "MYSQL","OOPs"],
+            "image": "restaurant.gif",   
+            "url": "https://github.com/sandhya12r/Restaurant"
+        },
+        {
+            "id": 5,
+            "title": "Dream Interpreter",
+            "slug": "dream-interpreter",
+            "description": "Web app to help users understand the meanings behind their dreams.",
+            "tech": ["Next.js", "Tailwind CSS", "OpenAI API"],
+            "image": "dream.gif",   
+            "url": "https://dream-interpreter-git-main-sandhya12rs-projects.vercel.app/"
+        },
+        {
+            "id": 6,
+            "title": "Captcha Generator",
+            "slug": "captcha-generator",
+            "description": "User interface that allows users to check the captcha generated",
+            "tech": ["HTML", "CSS", "JavaScript", "Currying"],
+            "image": "captcha.gif",   
+            "url": "https://sandhya12r.github.io/captcha-generator/"
+        }
+    ]
+}
