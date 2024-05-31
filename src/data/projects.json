@@ -24,8 +24,8 @@
             "slug": "my-profile",
             "description": "A whole lot about me and the projects I have worked on.",
             "tech": ["Next.js", "Tailwind CSS", "Aceternity UI"],
-            "image": "port.gif",
-            "url": "https://sandhya12r.github.io/"
+            "image": "profile.gif",
+            "url": "https://sandhya12r.vercel.app/"
         },
         {
             "id": 4,
