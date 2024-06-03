@@ -6,26 +6,6 @@ import { MapPin, Mail, Phone } from 'react-feather';
 
 export default function Contact() {
   const formRef = useRef<HTMLFormElement>(null);
-
-  function sendEmail() {
-    // const nameElement = document.getElementById('name') as HTMLInputElement;
-    // const emailElement = document.getElementById('email') as HTMLInputElement;
-    // const subjectElement = document.getElementById('subject') as HTMLInputElement;
-    // const msgElement = document.getElementById('message') as HTMLInputElement;
-    // if (subjectElement) {
-    //   Email.send({
-    //     SecureToken: "686652f2-3caf-4557-a553-aa665220acb996666",
-    //     To: 'prajapatis1201@gmail.com',
-    //     From: "prajapatis1201@gmail.com",
-    //     Subject: subjectElement.value,
-    //     Body: "Name: " + nameElement.value
-    //       + "<br> Email:" + emailElement.value
-    //       + "<br> Message:" + msgElement.value
-    //   }).then(
-    //     (message: string) => alert(message)
-    //   );
-    // }
-  }
   const resetForm = () => {
     if (formRef.current) {
       formRef.current.reset();
@@ -62,7 +42,6 @@ export default function Contact() {
         <div className="md:w-1/2 space-y-4">
           <form ref={formRef} className="space-y-4" onSubmit={(e) => {
             e.preventDefault();
-            sendEmail();
             resetForm();
           }}>
             <div className="flex space-x-4">
