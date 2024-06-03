@@ -1,7 +1,9 @@
 import About from "@/components/About";
+import Contact from "@/components/Conact";
 import HeroSection from "@/components/HeroSection";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import { ContainerWithChildren } from "postcss/lib/container";
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </main>
   );
 }

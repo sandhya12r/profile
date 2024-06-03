@@ -55,6 +55,7 @@ const config: Config = {
         'move-animation': 'move 6s ease-in-out infinite alternate',
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        "meteor-effect": "meteor 5s linear infinite",
       },
       keyframes: {
         move: {
@@ -76,6 +77,14 @@ const config: Config = {
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
           },
         },
       },
