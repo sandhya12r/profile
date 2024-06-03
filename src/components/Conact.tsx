@@ -14,7 +14,7 @@ export default function Contact() {
   return (
     <div id="contact" className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
 
-      <h2 className='tex-base text-teal-600 font-semibold tracking-wide uppercase'>Contact me</h2>
+      <h2 className='tex-base text-teal-600 font-semibold tracking-wide uppercase mb-6'>Contact me</h2>
       <p className='mb-8 text-3xl leading-8 font-extralight tracking-tight text-white sm:text-4xl'>Let's get in touch..</p>
       <div className=" text-white shadow-md rounded-lg p-10 max-w-6xl w-full flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 gap-8">
         <div className="md:w-1/2 space-y-4">
