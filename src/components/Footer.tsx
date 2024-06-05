@@ -25,13 +25,13 @@ const social = [
     {
         id: 4,
         name: "Twitter",
-        url: "https://twitter.com/sandhya12r",
-        image: "/twit.png",
+        url: "https://x.com/prajapati_1201",
+        image: "/x.png",
     }
 ]
 function Footer() {
     return (
-        <div className="relative h-[13rem] overflow-hidden flex items-center justify-center m-0 border-t border-gray-900">
+        <div className="relative h-[12rem] overflow-hidden flex items-center justify-center m-0 border-t border-gray-900">
             <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
                 {/* <h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-white text-center mb-4">Connect with Me here</h1> */}
                 <p className="text-base md:text-lg text-white text-center mb-4">Stay updated with my latest work and insights across various platforms.</p>
