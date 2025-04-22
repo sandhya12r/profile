@@ -4,7 +4,6 @@
 [![Forks](https://img.shields.io/github/forks/sandhya12r/profile)](https://github.com/sandhya12r/profile/network/members)
 [![Stargazers](https://img.shields.io/github/stars/sandhya12r/profile)](https://github.com/sandhya12r/profile/stargazers)
 [![Issues](https://img.shields.io/github/issues/sandhya12r/profile)](https://github.com/sandhya12r/profile/issues)
-[![MIT License](https://img.shields.io/github/license/sandhya12r/profile)](https://github.com/sandhya12r/profile/blob/main/sandhya12r)
 
 ---
 
